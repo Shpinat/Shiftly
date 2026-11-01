@@ -5,6 +5,8 @@ import tailwindcss from "@tailwindcss/vite";
 import { VitePWA } from "vite-plugin-pwa";
 
 const rootDir = fileURLToPath(new URL(".", import.meta.url));
+const lucideUpstream = fileURLToPath(import.meta.resolve("lucide-react"));
+const rechartsUpstream = fileURLToPath(import.meta.resolve("recharts"));
 
 export default defineConfig({
   base: "/Shiftly/",
@@ -12,9 +14,9 @@ export default defineConfig({
     alias: {
       "@": rootDir,
       "lucide-react": fileURLToPath(new URL("./lib/lucide-react.tsx", import.meta.url)),
-      "lucide-react-upstream": fileURLToPath(new URL("./node_modules/lucide-react/dist/lucide-react.js", import.meta.url)),
+      "lucide-react-upstream": lucideUpstream,
       "recharts": fileURLToPath(new URL("./lib/recharts.tsx", import.meta.url)),
-      "recharts-upstream": fileURLToPath(new URL("./node_modules/recharts/es6/index.js", import.meta.url))
+      "recharts-upstream": rechartsUpstream
     }
   },
   plugins: [
