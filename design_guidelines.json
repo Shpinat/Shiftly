@@ -1,0 +1,502 @@
+{
+  "theme": {
+    "system": "Material Design 3 (Material You)",
+    "mode": "light/dark/system supported, default system/light with M3 tonal color system",
+    "dynamic_color_support": true,
+    "seed_palettes": {
+      "default_blue": {
+        "id": "blue",
+        "name_ru": "Индиго / Лазурь (По умолчанию)",
+        "name_en": "Indigo / Azure (Default)",
+        "primary_light": "#1A5CE5",
+        "on_primary_light": "#FFFFFF",
+        "primary_container_light": "#DCE3FF",
+        "on_primary_container_light": "#00184A",
+        "secondary_light": "#435E91",
+        "on_secondary_light": "#FFFFFF",
+        "secondary_container_light": "#D8E2FF",
+        "on_secondary_container_light": "#001A41",
+        "tertiary_light": "#7B4E7F",
+        "on_tertiary_light": "#FFFFFF",
+        "tertiary_container_light": "#FFD7F5",
+        "on_tertiary_container_light": "#310B37",
+        "surface_light": "#FAF8FF",
+        "surface_dim_light": "#DAD9E0",
+        "surface_container_lowest_light": "#FFFFFF",
+        "surface_container_low_light": "#F4F3FA",
+        "surface_container_light": "#EEEDF4",
+        "surface_container_high_light": "#E8E7EE",
+        "surface_container_highest_light": "#E2E2E9",
+        "on_surface_light": "#191B23",
+        "on_surface_variant_light": "#44464F",
+        "outline_light": "#757780",
+        "outline_variant_light": "#C5C6D0",
+        "primary_dark": "#B4C5FF",
+        "on_primary_dark": "#002A78",
+        "primary_container_dark": "#003EA8",
+        "on_primary_container_dark": "#DBE1FF",
+        "secondary_dark": "#ACC7FF",
+        "on_secondary_dark": "#103060",
+        "secondary_container_dark": "#2B4678",
+        "on_secondary_container_dark": "#D8E2FF",
+        "tertiary_dark": "#EBB4EE",
+        "on_tertiary_dark": "#48204E",
+        "tertiary_container_dark": "#613766",
+        "on_tertiary_container_dark": "#FFD7F5",
+        "surface_dark": "#111318",
+        "surface_dim_dark": "#111318",
+        "surface_container_lowest_dark": "#0C0E13",
+        "surface_container_low_dark": "#191C21",
+        "surface_container_dark": "#1E2025",
+        "surface_container_high_dark": "#282A2F",
+        "surface_container_highest_dark": "#33353A",
+        "on_surface_dark": "#E2E2E9",
+        "on_surface_variant_dark": "#C5C6D0",
+        "outline_dark": "#8F909A",
+        "outline_variant_dark": "#44464F"
+      },
+      "forest_emerald": {
+        "id": "emerald",
+        "name_ru": "Изумруд / Хвоя",
+        "name_en": "Forest Emerald",
+        "primary_light": "#006C4C",
+        "on_primary_light": "#FFFFFF",
+        "primary_container_light": "#89F8C7",
+        "on_primary_container_light": "#002114",
+        "secondary_light": "#4D6356",
+        "on_secondary_light": "#FFFFFF",
+        "secondary_container_light": "#CFE9D8",
+        "on_secondary_container_light": "#0B1F15",
+        "surface_light": "#F5FBF5",
+        "surface_container_light": "#E9EFE9",
+        "surface_container_high_light": "#E3E9E3",
+        "on_surface_light": "#171D1A",
+        "on_surface_variant_light": "#404943",
+        "outline_light": "#717973",
+        "primary_dark": "#6CDBAC",
+        "on_primary_dark": "#003825",
+        "primary_container_dark": "#005138",
+        "on_primary_container_dark": "#89F8C7",
+        "surface_dark": "#0F1512",
+        "surface_container_dark": "#1B211E",
+        "surface_container_high_dark": "#262C28",
+        "on_surface_dark": "#DEE4DE",
+        "on_surface_variant_dark": "#BFC9C2"
+      },
+      "sunset_amber": {
+        "id": "amber",
+        "name_ru": "Янтарь / Закат",
+        "name_en": "Sunset Amber",
+        "primary_light": "#8A5100",
+        "on_primary_light": "#FFFFFF",
+        "primary_container_light": "#FFDDB8",
+        "on_primary_container_light": "#2C1600",
+        "secondary_light": "#725A42",
+        "on_secondary_light": "#FFFFFF",
+        "secondary_container_light": "#FEDEBF",
+        "on_secondary_container_light": "#281806",
+        "surface_light": "#FFF8F4",
+        "surface_container_light": "#F6ECE2",
+        "surface_container_high_light": "#F0E6DC",
+        "on_surface_light": "#211A13",
+        "on_surface_variant_light": "#51453A",
+        "outline_light": "#837568",
+        "primary_dark": "#FFB870",
+        "on_primary_dark": "#4A2800",
+        "primary_container_dark": "#693C00",
+        "on_primary_container_dark": "#FFDDB8",
+        "surface_dark": "#18120C",
+        "surface_container_dark": "#251E17",
+        "surface_container_high_dark": "#302821",
+        "on_surface_dark": "#EFE0D5",
+        "on_surface_variant_dark": "#D5C4B4"
+      },
+      "amethyst_violet": {
+        "id": "violet",
+        "name_ru": "Аметист / Лаванда",
+        "name_en": "Amethyst Violet",
+        "primary_light": "#6D4EA1",
+        "on_primary_light": "#FFFFFF",
+        "primary_container_light": "#EBDDFF",
+        "on_primary_container_light": "#270057",
+        "secondary_light": "#645B70",
+        "on_secondary_light": "#FFFFFF",
+        "secondary_container_light": "#EBDDF7",
+        "on_secondary_container_light": "#20182A",
+        "surface_light": "#FFF7FD",
+        "surface_container_light": "#F3EBF4",
+        "surface_container_high_light": "#EDE5EE",
+        "on_surface_light": "#1E1A22",
+        "on_surface_variant_light": "#4A454E",
+        "outline_light": "#7B757F",
+        "primary_dark": "#D5BAFF",
+        "on_primary_dark": "#3D1D70",
+        "primary_container_dark": "#553687",
+        "on_primary_container_dark": "#EBDDFF",
+        "surface_dark": "#151218",
+        "surface_container_dark": "#221E25",
+        "surface_container_high_dark": "#2D2830",
+        "on_surface_dark": "#E8E0E8",
+        "on_surface_variant_dark": "#CCC4CF"
+      }
+    }
+  },
+  "colors": {
+    "surfaces": [
+      {
+        "name": "page",
+        "kind": "solid",
+        "bg": "#FAF8FF",
+        "on_bg": "#191B23",
+        "on_bg_muted": "#44464F",
+        "roles": {
+          "link": "#1A5CE5",
+          "error": "#BA1A1A",
+          "success": "#1E824C",
+          "warning": "#8A5100"
+        }
+      },
+      {
+        "name": "surface_container_low",
+        "kind": "solid",
+        "bg": "#F4F3FA",
+        "on_bg": "#191B23",
+        "on_bg_muted": "#44464F"
+      },
+      {
+        "name": "surface_container",
+        "kind": "solid",
+        "bg": "#EEEDF4",
+        "on_bg": "#191B23",
+        "on_bg_muted": "#44464F",
+        "roles": {
+          "active_indicator": "#DCE3FF",
+          "border": "#E2E2E9"
+        }
+      },
+      {
+        "name": "surface_container_high",
+        "kind": "solid",
+        "bg": "#E8E7EE",
+        "on_bg": "#191B23",
+        "on_bg_muted": "#44464F"
+      },
+      {
+        "name": "primary_card",
+        "kind": "solid",
+        "bg": "#1A5CE5",
+        "on_bg": "#FFFFFF",
+        "on_bg_muted": "#E0E7FF",
+        "roles": {
+          "timer_digits": "#FFFFFF",
+          "pill_badge": "#DCE3FF"
+        }
+      },
+      {
+        "name": "primary_container",
+        "kind": "solid",
+        "bg": "#DCE3FF",
+        "on_bg": "#00184A",
+        "on_bg_muted": "#1D3261"
+      },
+      {
+        "name": "tertiary_container",
+        "kind": "solid",
+        "bg": "#FFD7F5",
+        "on_bg": "#310B37",
+        "on_bg_muted": "#522557"
+      },
+      {
+        "name": "error_container",
+        "kind": "solid",
+        "bg": "#FFDAD6",
+        "on_bg": "#410002",
+        "on_bg_muted": "#601410"
+      },
+      {
+        "name": "page_dark",
+        "kind": "solid",
+        "bg": "#111318",
+        "on_bg": "#E2E2E9",
+        "on_bg_muted": "#C5C6D0",
+        "roles": {
+          "link": "#B4C5FF",
+          "error": "#FFB4AB",
+          "success": "#6CDBAC",
+          "warning": "#FFB870"
+        }
+      },
+      {
+        "name": "surface_container_dark",
+        "kind": "solid",
+        "bg": "#1E2025",
+        "on_bg": "#E2E2E9",
+        "on_bg_muted": "#C5C6D0"
+      },
+      {
+        "name": "surface_container_high_dark",
+        "kind": "solid",
+        "bg": "#282A2F",
+        "on_bg": "#E2E2E9",
+        "on_bg_muted": "#C5C6D0"
+      },
+      {
+        "name": "primary_card_dark",
+        "kind": "solid",
+        "bg": "#1A5CE5",
+        "on_bg": "#FFFFFF",
+        "on_bg_muted": "#DCE3FF"
+      },
+      {
+        "name": "primary_container_dark",
+        "kind": "solid",
+        "bg": "#003EA8",
+        "on_bg": "#DBE1FF",
+        "on_bg_muted": "#B4C5FF"
+      }
+    ],
+    "accent": "#1A5CE5",
+    "on_accent": "#FFFFFF"
+  },
+  "typography": {
+    "font_family_sans": "Manrope Variable, system-ui, -apple-system, sans-serif",
+    "font_family_mono": "JetBrains Mono Variable, monospace",
+    "font_import": "@import \"@fontsource-variable/manrope\";\n@import \"@fontsource-variable/jetbrains-mono\";",
+    "scale_px": {
+      "display": 52,
+      "h1": 36,
+      "h2": 28,
+      "h3": 22,
+      "body": 16,
+      "caption": 14
+    },
+    "m3_type_tokens": {
+      "display_large": "text-4xl sm:text-5xl font-extrabold tracking-tight",
+      "headline_medium": "text-2xl sm:text-3xl font-bold tracking-tight",
+      "title_large": "text-xl font-bold tracking-normal",
+      "title_medium": "text-base font-semibold tracking-wide",
+      "body_large": "text-base font-normal leading-relaxed",
+      "body_medium": "text-sm font-normal leading-normal",
+      "label_large": "text-sm font-semibold tracking-wide uppercase",
+      "label_medium": "text-xs font-medium tracking-wider",
+      "timer_mono": "font-mono font-bold tracking-wider"
+    }
+  },
+  "entry_surfaces": {
+    "/": "M3 bottom navigation app shell — top app bar with live status chip and language/theme triggers, dominant live timer hero card, quick action pills, 3-metric summary row, upcoming shift stack, floating action button (FAB) at bottom-right"
+  },
+  "material_design_3_components": {
+    "navigation_bar": {
+      "mobile": "Fixed bottom bar, 80px height, background `surface_container`, active pill indicator with width 64px height 32px `rounded-full` `bg-primary-container text-on-primary-container`, inactive items with icon and 12px label",
+      "desktop": "Navigation Rail on the left, 88px wide, top app logo/brand, centered vertical icon tabs with active pills, bottom action icons",
+      "tabs": [
+        { "id": "dashboard", "icon": "Clock", "label_ru": "Смена", "label_en": "Shift", "test_id": "nav-tab-dashboard" },
+        { "id": "calendar", "icon": "Calendar", "label_ru": "Календарь", "label_en": "Calendar", "test_id": "nav-tab-calendar" },
+        { "id": "history", "icon": "History", "label_ru": "История", "label_en": "History", "test_id": "nav-tab-history" },
+        { "id": "stats", "icon": "BarChart3", "label_ru": "Статистика", "label_en": "Stats", "test_id": "nav-tab-stats" },
+        { "id": "settings", "icon": "Settings", "label_ru": "Настройки", "label_en": "Settings", "test_id": "nav-tab-settings" }
+      ]
+    },
+    "floating_action_button": {
+      "style": "FAB M3: size 56x56px (or extended with text), rounded-2xl (16px), elevated with shadow-md, bg-primary-container text-on-primary-container hover:shadow-lg transition-transform active:scale-95",
+      "position": "bottom-24 right-4 sm:bottom-8 sm:right-8 z-40 fixed",
+      "label_ru": "+ Смена",
+      "label_en": "+ Shift",
+      "test_id": "fab-add-shift"
+    },
+    "cards": {
+      "elevated": "bg-surface-container-low rounded-3xl p-5 shadow-sm border border-outline-variant/30",
+      "filled": "bg-surface-container rounded-3xl p-5 border-none",
+      "outlined": "bg-surface rounded-3xl p-5 border border-outline-variant",
+      "hero_timer_card": "bg-gradient-to-br from-primary to-primary/90 text-on-primary rounded-[28px] p-6 shadow-md relative overflow-hidden"
+    },
+    "chips": {
+      "assist": "rounded-lg px-3 py-1.5 text-xs font-medium border border-outline-variant inline-flex items-center gap-1.5 bg-surface hover:bg-surface-container transition-colors",
+      "filter_selected": "rounded-lg px-3 py-1.5 text-xs font-semibold bg-secondary-container text-on-secondary-container inline-flex items-center gap-1.5 shadow-xs",
+      "status_active": "rounded-full px-3 py-1 text-xs font-bold bg-emerald-500/20 text-emerald-800 dark:text-emerald-300 border border-emerald-500/30 animate-pulse",
+      "status_break": "rounded-full px-3 py-1 text-xs font-bold bg-amber-500/20 text-amber-800 dark:text-amber-300 border border-amber-500/30",
+      "status_idle": "rounded-full px-3 py-1 text-xs font-medium bg-surface-container-high text-on-surface-variant"
+    },
+    "buttons": {
+      "filled": "rounded-full px-6 py-3 font-semibold text-sm bg-primary text-on-primary hover:bg-primary/90 active:scale-98 transition-all min-h-[48px] flex items-center justify-center gap-2",
+      "tonal": "rounded-full px-5 py-2.5 font-semibold text-sm bg-secondary-container text-on-secondary-container hover:bg-secondary-container/80 min-h-[48px] flex items-center justify-center gap-2",
+      "outlined": "rounded-full px-5 py-2.5 font-semibold text-sm border border-outline text-primary hover:bg-primary/5 min-h-[48px] flex items-center justify-center gap-2",
+      "icon_button": "w-12 h-12 rounded-full flex items-center justify-center hover:bg-on-surface/8 active:bg-on-surface/12 transition-colors text-on-surface"
+    },
+    "bottom_sheet": {
+      "style": "Fixed bottom-0 inset-x-0 z-50 bg-surface-container-low rounded-t-[28px] p-6 shadow-2xl border-t border-outline-variant/40 max-h-[85vh] overflow-y-auto",
+      "drag_handle": "w-10 h-1 rounded-full bg-outline-variant mx-auto mb-4"
+    },
+    "segmented_button": {
+      "container": "inline-flex p-1 bg-surface-container rounded-full border border-outline-variant/40",
+      "item_active": "px-4 py-1.5 rounded-full text-xs font-semibold bg-surface text-primary shadow-xs transition-all",
+      "item_inactive": "px-4 py-1.5 rounded-full text-xs font-medium text-on-surface-variant hover:text-on-surface transition-all"
+    }
+  },
+  "layout_and_grids": {
+    "mobile_shell": "max-w-md mx-auto min-h-screen pb-28 pt-4 px-4 bg-surface text-on-surface flex flex-col font-sans",
+    "desktop_shell": "min-h-screen bg-surface text-on-surface pl-28 pr-8 py-8 flex flex-col max-w-6xl mx-auto font-sans",
+    "spacing": "Generous M3 rhythm: 16px (p-4), 24px (p-6), 32px (p-8). Touch target minimum 48x48px on all clickables.",
+    "summary_grid": "grid grid-cols-2 sm:grid-cols-4 gap-3",
+    "shift_list_item": "flex items-center justify-between p-4 bg-surface-container rounded-2xl border border-outline-variant/20 hover:border-outline-variant transition-all cursor-pointer"
+  },
+  "shift_tracker_core_states": {
+    "timer_states": {
+      "idle": {
+        "title_ru": "Нет активной смены",
+        "title_en": "No active shift",
+        "subtitle_ru": "Готовы начать рабочий день?",
+        "subtitle_en": "Ready to clock in?",
+        "primary_action": "start_shift",
+        "primary_action_ru": "Начать смену",
+        "primary_action_en": "Clock In"
+      },
+      "active": {
+        "title_ru": "Смена активна",
+        "title_en": "Shift in progress",
+        "badge_ru": "В РАБОТЕ",
+        "badge_en": "WORKING",
+        "actions": ["take_break", "end_shift"],
+        "actions_ru": ["Перерыв", "Завершить"],
+        "actions_en": ["Break", "Clock Out"]
+      },
+      "on_break": {
+        "title_ru": "На перерыве",
+        "title_en": "On Break",
+        "badge_ru": "ПЕРЕРЫВ",
+        "badge_en": "ON BREAK",
+        "actions": ["end_break", "end_shift"],
+        "actions_ru": ["Продолжить смену", "Завершить"],
+        "actions_en": ["Resume Shift", "Clock Out"]
+      },
+      "just_finished": {
+        "title_ru": "Смена завершена!",
+        "title_en": "Shift Completed!",
+        "badge_ru": "ИТОГИ СМЕНЫ",
+        "badge_en": "SUMMARY",
+        "actions": ["view_summary", "start_new"],
+        "actions_ru": ["Детали", "Новая смена"],
+        "actions_en": ["Details", "New Shift"]
+      }
+    },
+    "shift_types": [
+      { "id": "standard", "name_ru": "Обычная (Дневная)", "name_en": "Day Shift", "color": "#1A5CE5", "bg": "#DCE3FF", "rate_multiplier": 1.0 },
+      { "id": "night", "name_ru": "Ночная смена", "name_en": "Night Shift", "color": "#7B4E7F", "bg": "#FFD7F5", "rate_multiplier": 1.3 },
+      { "id": "weekend", "name_ru": "Выходной день", "name_en": "Weekend", "color": "#8A5100", "bg": "#FFDDB8", "rate_multiplier": 1.5 },
+      { "id": "overtime", "name_ru": "Переработка / Овертайм", "name_en": "Overtime", "color": "#BA1A1A", "bg": "#FFDAD6", "rate_multiplier": 2.0 },
+      { "id": "custom", "name_ru": "Спецпроект / Подработка", "name_en": "Special / Gig", "color": "#006C4C", "bg": "#89F8C7", "rate_multiplier": 1.2 }
+    ]
+  },
+  "screens_and_features": {
+    "dashboard": {
+      "hero_timer_section": "Displays large live HH:MM:SS timer digits, elapsed time, current accumulated earnings in selected currency, live break counter if on break, active shift type chip",
+      "quick_actions_bar": "Clock In / Clock Out, Start / End Break, Quick Add Past Shift (+ Ручной ввод), Toggle Sound/Haptic feedback",
+      "kpi_summary_cards": "4 key cards: [Часы сегодня / Today's Hours], [Часы за неделю / Week Hours], [Заработано за месяц / Month Earnings], [Смен в графике / Planned Shifts]",
+      "upcoming_shifts_preview": "Horizontal or compact vertical stack of next 3 scheduled shifts with countdown badge"
+    },
+    "calendar": {
+      "modes": "Month View (interactive grid with colored dot badges for shift types and earnings total) and Week View (time blocks)",
+      "day_tap_action": "Opens M3 Bottom Sheet with details of selected date: list of shifts, total hours, total earnings, notes, buttons to: [Добавить смену / Add Shift], [Дублировать / Duplicate], [Редактировать / Edit], [Удалить / Delete]",
+      "shift_templates": "Quick presets (e.g. 2/2 12h, 5/2 8h, Сутки/Трое 24h) with 1-click batch generation for the month"
+    },
+    "history": {
+      "search_and_filters": "Search by notes/location/role; Filters by Shift Type chip, Date Range (This Month, Last Month, Custom), Status (Completed, Active, Missed)",
+      "sort_options": "Newest first, Oldest first, Highest earnings, Longest duration",
+      "item_details_dialog": "Full breakdown of start time, end time, total breaks, gross earnings, overtime bonus, night rate bonus, net earnings, tags, notes"
+    },
+    "statistics": {
+      "kpis": "Total Hours Worked, Total Gross Income, Average Shift Duration, Overtime Rate %, Average Hourly Yield",
+      "charts": [
+        { "type": "BarChart", "title_ru": "Отработано часов по дням/неделям", "title_en": "Hours Worked by Day/Week", "metric": "hours" },
+        { "type": "AreaChart", "title_ru": "Динамика дохода (Тренды)", "title_en": "Earnings Trend", "metric": "earnings" },
+        { "type": "PieChart", "title_ru": "Распределение по типам смен", "title_en": "Shift Type Breakdown", "metric": "types" }
+      ],
+      "period_filter": "Week / Month / Quarter / Year / All time"
+    },
+    "settings": {
+      "sections": [
+        {
+          "title_ru": "Внешний вид и стиль (Material You)",
+          "title_en": "Appearance & Material You",
+          "items": ["Language toggle (RU default / EN)", "Theme (Light / Dark / System)", "M3 Seed Color Picker (4 vibrant palettes)", "OLED Dark Mode toggle"]
+        },
+        {
+          "title_ru": "Ставки и расчет зарплаты",
+          "title_en": "Rates & Payroll Calculation",
+          "items": ["Currency selector (RUB ₽, USD $, EUR €, KZT ₸, etc.)", "Base hourly rate", "Overtime threshold (e.g. after 8h) & multiplier (e.g. 1.5x)", "Night bonus % (22:00 - 06:00)", "Weekend multiplier", "Paid breaks toggle"]
+        },
+        {
+          "title_ru": "Формат времени и календарь",
+          "title_en": "Time & Calendar Format",
+          "items": ["Time format (24h / 12h AM-PM)", "First day of week (Monday / Sunday)"]
+        },
+        {
+          "title_ru": "Резервное копирование и экспорт",
+          "title_en": "Backup & Export",
+          "items": ["Export JSON (Full backup)", "Export CSV (Excel / Sheets compatible)", "Import JSON with validation", "Clear / Reset all data (with double confirmation modal)"]
+        }
+      ]
+    }
+  },
+  "motion_and_interactions": {
+    "m3_easing": "cubic-bezier(0.2, 0.0, 0, 1.0)",
+    "timer_pulse": "Subtle breathing indicator for active shift",
+    "tab_transition": "Smooth sliding indicator for Navigation Bar pills",
+    "sheet_enter": "Slide up from bottom with spring stiffness 300 damping 28",
+    "haptic_feedback": "Simulate vibration API (navigator.vibrate) on start/end timer and tab clicks",
+    "reduced_motion": "Wrap animations with prefers-reduced-motion media query"
+  },
+  "accessibility": {
+    "touch_target_min": "48px x 48px",
+    "aria_labels": "All icon-only buttons (FAB, back, theme toggle, delete, play/pause) have descriptive aria-label in current language",
+    "contrast_check": "All text tokens meet APCA and WCAG AA 4.5:1 minimum on their declared surfaces",
+    "focus_rings": "focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:outline-hidden",
+    "keyboard_navigation": "Full arrow key navigation in calendar and list items, Enter/Space for FAB and quick actions"
+  },
+  "data_architecture_offline_first": {
+    "storage_strategy": "localStorage + IndexedDB cache with auto-sync fallback",
+    "default_seed_data": "Pre-populated with 1 active or completed shift today, 12 realistic shifts for the current month across Day, Night, and Weekend shifts to immediately showcase calendar dots, statistics charts, and history filters on first load",
+    "sample_shifts_count": 14
+  },
+  "testing_attributes": {
+    "required_test_ids": [
+      "app-header",
+      "lang-toggle-btn",
+      "theme-toggle-btn",
+      "timer-display",
+      "btn-start-shift",
+      "btn-end-shift",
+      "btn-start-break",
+      "btn-end-break",
+      "btn-quick-add-shift",
+      "kpi-today-hours",
+      "kpi-week-hours",
+      "kpi-month-earnings",
+      "nav-tab-dashboard",
+      "nav-tab-calendar",
+      "nav-tab-history",
+      "nav-tab-stats",
+      "nav-tab-settings",
+      "fab-add-shift",
+      "calendar-view-month",
+      "calendar-view-week",
+      "shift-form-save-btn",
+      "export-json-btn",
+      "export-csv-btn",
+      "import-json-btn"
+    ]
+  },
+  "instructions_to_main_agent": [
+    "1. Mount fonts in frontend/src/index.css by importing '@fontsource-variable/manrope' and '@fontsource-variable/jetbrains-mono'. Set --font-sans to 'Manrope Variable', sans-serif and --font-mono to 'JetBrains Mono Variable', monospace.",
+    "2. Implement full Material Design 3 tokens as CSS variables in :root and .dark with support for dynamic seed color switching (store active palette in localStorage).",
+    "3. Build responsive M3 Navigation Bar at the bottom for mobile screens and Navigation Rail on wide desktop screens (>=768px).",
+    "4. Ensure Russian UI is default with complete bilingual dictionary for English (RU/EN toggle in top app bar or settings).",
+    "5. Implement active timer engine using accurate requestAnimationFrame or 1-second interval with timestamp diffing so time remains exact even if the tab is backgrounded.",
+    "6. Build full Calendar with interactive month grid, day shift markers, and smooth M3 bottom sheet on day tap.",
+    "7. Implement full-featured Shift Form supporting date, start/end time, breaks, shift type (day/night/weekend/overtime), hourly rate override, tax/bonuses, tags, notes, and recurring shift generator.",
+    "8. Implement Recharts statistics (hours distribution, earnings trends, shift types) with period filters.",
+    "9. Implement full JSON & CSV export and JSON import with file picker and data validation.",
+    "10. Preload realistic initial seed shifts into localStorage on first visit so the app looks lived-in and rich immediately.",
+    "11. Every interactive button, input, and KPI must include data-testid as specified."
+  ]
+}
