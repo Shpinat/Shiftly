@@ -12,7 +12,9 @@ export default defineConfig({
     alias: {
       "@": rootDir,
       "lucide-react": fileURLToPath(new URL("./lib/lucide-react.tsx", import.meta.url)),
-      "recharts": fileURLToPath(new URL("./lib/recharts.tsx", import.meta.url))
+      "lucide-react-upstream": fileURLToPath(new URL("./node_modules/lucide-react/dist/lucide-react.js", import.meta.url)),
+      "recharts": fileURLToPath(new URL("./lib/recharts.tsx", import.meta.url)),
+      "recharts-upstream": fileURLToPath(new URL("./node_modules/recharts/es6/index.js", import.meta.url))
     }
   },
   plugins: [
