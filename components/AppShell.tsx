@@ -54,7 +54,7 @@ function usePlannedEndNotification() {
     if (!enabled || !active?.plannedEndTimestamp || !("Notification" in window) || Notification.permission !== "granted") return;
     if (now >= active.plannedEndTimestamp && notified.current !== active.id) {
       notified.current = active.id;
-      new Notification("Shift Tracker", { body: translate(lang, "shiftEndNotification"), icon: "/pwa-192x192.png" });
+      new Notification("Shift Tracker", { body: translate(lang, "shiftEndNotification"), icon: `${import.meta.env.BASE_URL}pwa-192x192.png` });
     }
   }, [now, active, enabled, lang]);
 }
